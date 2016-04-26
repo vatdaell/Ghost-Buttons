@@ -1,4 +1,4 @@
-.ghost-button, .light-pink {
+.ghost-button {
   text-align: center;
   text-decoration: none;
   background: none;
@@ -7,17 +7,19 @@
   border: 1px solid #F8B195;
   color: #F8B195;
   transition: 0.5s; }
-  .ghost-button:hover, .light-pink:hover {
+  .ghost-button:hover {
     color: #FFFFFF;
     background: #F8B195;
     border: 1px solid #F8B195; }
 
-.lg {
-  text-align: center;
-  text-decoration: none;
-  background: none;
-  padding: 14px;
-  display: inline-block; }
+.light-pink {
+  border: 1px solid #F8B195;
+  color: #F8B195;
+  transition: 0.5s; }
+  .light-pink:hover {
+    color: #FFFFFF;
+    background: #F8B195;
+    border: 1px solid #F8B195; }
 
 .pink {
   border: 1px solid #F67280;
@@ -27,6 +29,15 @@
     color: #FFFFFF;
     background: #F67280;
     border: 1px solid #F67280; }
+
+.white {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  transition: 0.5s; }
+  .white:hover {
+    color: #FFFFFF;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF; }
 
 .light-purple {
   border: 1px solid #C06C84;
@@ -46,13 +57,31 @@
     background: #6C5B7B;
     border: 1px solid #6C5B7B; }
 
-.dark-blue {
+.blue {
   border: 1px solid #355C7D;
   color: #355C7D;
   transition: 0.5s; }
-  .dark-blue:hover {
+  .blue:hover {
     color: #FFFFFF;
     background: #355C7D;
     border: 1px solid #355C7D; }
+
+.green {
+  border: 1px solid #FECEA8;
+  color: #FECEA8;
+  transition: 0.5s; }
+  .green:hover {
+    color: #FFFFFF;
+    background: #FECEA8;
+    border: 1px solid #FECEA8; }
+
+.peach {
+  border: 1px solid #FF847C;
+  color: #FF847C;
+  transition: 0.5s; }
+  .peach:hover {
+    color: #FFFFFF;
+    background: #FF847C;
+    border: 1px solid #FF847C; }
 
 /*# sourceMappingURL=ghost-button.css.map */

@@ -1,9 +1,5 @@
-$light-pink: #F8B195
-$pink: #F67280
-$white: #FFFFFF
-$light-purple: #C06C84
-$purple: #6C5B7B
-$dark-blue: #355C7D
+$colors: ("light-pink":#F8B195,"pink":#F67280,"white":#FFFFFF,"light-purple":#C06C84,"purple":#6C5B7B,"blue":#355C7D,"green":#FECEA8,"peach":#FF847C)
+
 
 =button($size:8px)
 	text-align: center
@@ -13,32 +9,20 @@ $dark-blue: #355C7D
 	display: inline-block
 =hover($color)
 	&:hover
-		color: $white
+		color: map-get($colors,"white")
 		background: $color
 		border: 1px solid $color
 	transition: 0.5s
-=color($color: $light-pink)
+=color($color)
 	border: 1px solid $color
 	color: $color
 	+hover($color)
 
 
 
-.ghost-button, .light-pink
+.ghost-button
 	+button()
-	+color()
-
-.lg
-	+button(14px)
-
-.pink
-	+color($pink)
-
-.light-purple
-	+color($light-purple)
-
-.purple
-	+color($purple)
-
-.dark-blue
-	+color($dark-blue)
+	+color(map-get($colors,"light-pink"))
+@each $name, $color in $colors
+	.#{$name}
+		+color($color)
