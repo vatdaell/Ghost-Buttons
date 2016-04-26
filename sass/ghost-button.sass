@@ -1,0 +1,44 @@
+$light-pink: #F8B195
+$pink: #F67280
+$white: #FFFFFF
+$light-purple: #C06C84
+$purple: #6C5B7B
+$dark-blue: #355C7D
+
+=button($size:8px)
+	text-align: center
+	text-decoration: none
+	background: none
+	padding: $size
+	display: inline-block
+=hover($color)
+	&:hover
+		color: $white
+		background: $color
+		border: 1px solid $color
+	transition: 0.5s
+=color($color: $light-pink)
+	border: 1px solid $color
+	color: $color
+	+hover($color)
+
+
+
+.ghost-button, .light-pink
+	+button()
+	+color()
+
+.lg
+	+button(14px)
+
+.pink
+	+color($pink)
+
+.light-purple
+	+color($light-purple)
+
+.purple
+	+color($purple)
+
+.dark-blue
+	+color($dark-blue)

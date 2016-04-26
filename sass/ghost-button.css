@@ -1,0 +1,58 @@
+.ghost-button, .light-pink {
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  padding: 8px;
+  display: inline-block;
+  border: 1px solid #F8B195;
+  color: #F8B195;
+  transition: 0.5s; }
+  .ghost-button:hover, .light-pink:hover {
+    color: #FFFFFF;
+    background: #F8B195;
+    border: 1px solid #F8B195; }
+
+.lg {
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  padding: 14px;
+  display: inline-block; }
+
+.pink {
+  border: 1px solid #F67280;
+  color: #F67280;
+  transition: 0.5s; }
+  .pink:hover {
+    color: #FFFFFF;
+    background: #F67280;
+    border: 1px solid #F67280; }
+
+.light-purple {
+  border: 1px solid #C06C84;
+  color: #C06C84;
+  transition: 0.5s; }
+  .light-purple:hover {
+    color: #FFFFFF;
+    background: #C06C84;
+    border: 1px solid #C06C84; }
+
+.purple {
+  border: 1px solid #6C5B7B;
+  color: #6C5B7B;
+  transition: 0.5s; }
+  .purple:hover {
+    color: #FFFFFF;
+    background: #6C5B7B;
+    border: 1px solid #6C5B7B; }
+
+.dark-blue {
+  border: 1px solid #355C7D;
+  color: #355C7D;
+  transition: 0.5s; }
+  .dark-blue:hover {
+    color: #FFFFFF;
+    background: #355C7D;
+    border: 1px solid #355C7D; }
+
+/*# sourceMappingURL=ghost-button.css.map */
